@@ -24,7 +24,9 @@ namespace ConsoleUI
 
             //Car car1 = new Car() { BrandId = 1, ColorId = 1, ModelYear = 1987, DailyPrice = 150, Description = "Eski ama sağlam araba" };
 
-            //carManager.Add(new Car { BrandId = 1, ColorId = 1, ModelYear = 2000, DailyPrice = 200, Description = "İyi gider çok yakar" });
+            //carManager.Add(car1);
+
+            carManager.Add(new Car { BrandId = 1, ColorId = 1, ModelYear = 2000, DailyPrice = 200, Description = "İyi gider çok yakar" });
 
             Console.WriteLine("\n**************\n");
             Console.WriteLine(carManager.GetAll());

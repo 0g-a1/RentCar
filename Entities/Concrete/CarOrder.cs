@@ -3,12 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-
 namespace Entities.Concrete
 {
-    public class Brand : IEntity
+    public class CarOrder : IEntity
     {
-        public int BrandId { get; set; }
-        public string BrandName { get; set; }
+        public int CarOrderId { get; set; }
+        // Devam et
     }
 }

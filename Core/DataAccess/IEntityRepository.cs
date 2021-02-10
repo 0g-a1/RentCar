@@ -1,10 +1,10 @@
-﻿using Entities.Abstract;
+﻿using CoreRC.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+namespace CoreRC.DataAccess
 {
     public interface IEntityRepository<T> where T:class,IEntity,new()
     {

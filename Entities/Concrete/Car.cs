@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using CoreRC.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
